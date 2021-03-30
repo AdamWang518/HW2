@@ -1,0 +1,23 @@
+body {
+    height: 80px;
+    background-color:coral ;
+    text-align: center;
+}
+
+@media(min-width: 320px) {
+    body {
+        background-color: lightyellow;
+    }
+}
+
+@media(min-width: 768px) {
+    body {
+        background-color: orange;
+    }
+}
+
+@media(min-width: 920px) {
+    body {
+        background-color: lightpink;
+    }
+}
